@@ -4,15 +4,15 @@
 */
 
 enum Day {
-  Monday = "Monday",
-  Tuesday = "Tuesday",
-  Wednesday = "Wednesday",
-  Thirsday = "Thirsday",
-  Friday = "Friday",
-  Saturday = "Saturday",
-  Sunday = "Sunday",
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thirsday,
+  Friday,
+  Saturday,
+  Sunday,
 }
 
 function isWeekend(day: Day): boolean {
-  return ["Saturday", "Sunday"].includes(day);
+  return [Day.Saturday, Day.Sunday].includes(day);
 }

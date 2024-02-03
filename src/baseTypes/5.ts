@@ -4,6 +4,4 @@
 */
 
 let union: string | number;
-
-type State = "enable" | "disable";
-let literal: State ='enable';
+let literal: "enable" | "disable";
